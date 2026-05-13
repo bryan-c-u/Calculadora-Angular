@@ -1,0 +1,81 @@
+<main class="contenedor_calculadora">
+    <div class="calculadora">
+
+        <div class="contenedor_pantalla">
+
+            <app-pantalla-resultado
+                [resultado]="pantalla">
+            </app-pantalla-resultado>
+
+        </div>
+
+        <div class="contenedor_botones">
+
+            <div class="boton" (click)="agregar('7')">
+                <app-botones texto="7"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('8')">
+                <app-botones texto="8"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('9')">
+                <app-botones texto="9"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('/')">
+                <app-botones texto="/"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('4')">
+                <app-botones texto="4"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('5')">
+                <app-botones texto="5"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('6')">
+                <app-botones texto="6"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('*')">
+                <app-botones texto="*"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('1')">
+                <app-botones texto="1"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('2')">
+                <app-botones texto="2"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('3')">
+                <app-botones texto="3"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('-')">
+                <app-botones texto="-"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('0')">
+                <app-botones texto="0"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('C')">
+                <app-botones texto="C"></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('=')">
+                <app-botones texto="="></app-botones>
+            </div>
+
+            <div class="boton" (click)="agregar('+')">
+                <app-botones texto="+"></app-botones>
+            </div>
+
+        </div>
+
+    </div>
+</main>
